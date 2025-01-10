@@ -1,4 +1,4 @@
-package com.example.app;
+package com.lyi.cloud;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -12,7 +12,7 @@ class MyWebViewClient extends WebViewClient {
         String hostname;
 
         // YOUR HOSTNAME
-        hostname = "example.com";
+        hostname = "c.92li.us.kg";
 
         Uri uri = Uri.parse(url);
         if (url.startsWith("file:") || uri.getHost() != null && uri.getHost().endsWith(hostname)) {

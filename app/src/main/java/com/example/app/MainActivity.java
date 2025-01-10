@@ -1,4 +1,4 @@
-package com.example.app;
+package com.lyi.cloud;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -77,10 +77,10 @@ public class MainActivity extends Activity {
         });
 
         // REMOTE RESOURCE
-        mWebView.loadUrl("https://example.com");
+        mWebView.loadUrl("https://c.92li.us.kg");
 
         // LOCAL RESOURCE
-        mWebView.loadUrl("file:///android_asset/index.html");
+        // mWebView.loadUrl("file:///android_asset/index.html");
     }
 
     @Override
